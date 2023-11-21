@@ -1,0 +1,55 @@
+
+{
+    "personas": [
+        {
+            "id": 1,
+            "nombre": "Juan",
+            "telefono": "555-1234"
+        },
+        {
+            "id": 2,
+            "nombre": "Maria",
+            "telefono": "555-5678"
+        },
+        {
+            "id": 3,
+            "nombre": "Pedro",
+            "telefono": "555-9876"
+        },
+        {
+            "id": 4,
+            "nombre": "Ana",
+            "telefono": "555-4321"
+        },
+        {
+            "id": 5,
+            "nombre": "Luis",
+            "telefono": "555-8765"
+        },
+        {
+            "id": 6,
+            "nombre": "Sofia",
+            "telefono": "555-2468"
+        },
+        {
+            "id": 7,
+            "nombre": "Carlos",
+            "telefono": "555-3691"
+        },
+        {
+            "id": 8,
+            "nombre": "Laura",
+            "telefono": "555-1357"
+        },
+        {
+            "id": 9,
+            "nombre": "Miguel",
+            "telefono": "555-8642"
+        },
+        {
+            "id": 10,
+            "nombre": "Isabel",
+            "telefono": "555-9753"
+        }
+    ]
+}
