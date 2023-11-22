@@ -1,3 +1,5 @@
+//Las interfaces deberian emprezar con la i
+
 export interface Empresa {
     id: string,
     nombre: string,

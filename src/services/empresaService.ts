@@ -19,12 +19,12 @@ export const addEmpresa = (empresa: Empresa) => {
     return empresa;
 }
 
-export const deleteEmpresa = (id: string) => { 
-    const empresa = empresas.find(empresa => empresa.id === id);
-    if (empresa && empresa.personas.length === 0) {
-        empresas = empresas.filter(empresa => empresa.id !== id);
+export const deleteEmpresa = (id: string) => {
+    const index = empresas.findIndex(empresa => empresa.id === id);
+    if (index !== -1 && empresas[index].personas.length === 0) {
+        return empresas.splice(index, 1)[0];
     }
-    return empresas;
+    return null;
 }
 
 export const updateEmpresa = (id: string, empresa: Empresa) => {

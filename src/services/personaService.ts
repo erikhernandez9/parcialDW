@@ -25,8 +25,9 @@ export const addPersona = (persona: Persona) => {
 }
 
 export const deletePersona = (id: string) => {  
-    personas = personas.filter(persona => persona.id != id);
-    return personas;
+    const deletedPersona = personas.find(persona => persona.id === id);
+    personas = personas.filter(persona => persona.id !== id);
+    return deletedPersona;
 }
 
 export const updatePersona = (id: string, persona: Persona) => {
